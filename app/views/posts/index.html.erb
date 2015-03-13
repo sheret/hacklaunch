@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="text-center">
+	
+	<h1>My Blog</h1>
+
+	<% @posts.each do |post| %>
+		<ul style="list-style: none;">
+			<li> 
+			<%= link_to(post.title, post)%> 
+			</li>
+		</ul>
+	<%= link_to "Create a New Post", new_post_path %>
+
+	<% end %>
+	</div>
+</div>	

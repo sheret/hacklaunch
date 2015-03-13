@@ -1,0 +1,16 @@
+<h1>Blog</h1>
+<%= form_for @post do |f| %>
+	<div>
+		<div> 
+			<%= f.label :title, "Title" %>
+			<%= f.text_field :title %>
+		</div>
+
+		<div>
+			<%= f.label :content %>
+			<%= f.text_area :content %>
+		</div>
+
+		<%= f.submit %>
+	</div>
+<% end %>
