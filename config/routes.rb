@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   resources :users
 
+  resources :posts
+
 
   #get '/' => 'welcome#index' #instead of do you point to where you want it to go
   #post '/submit' => 'welcome#submit'
