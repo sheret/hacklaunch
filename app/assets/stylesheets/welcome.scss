@@ -1,0 +1,224 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-image:url(Optimized-casual.jpg);
+	background-size: cover;
+	background-position: 50%;
+	background-attachment: fixed;
+	font-family:'Proxima Nova', sans-serif;
+}
+
+.wrapper {
+	max-width: 100%;
+	overflow: hidden;
+	overflow-x: hidden;
+}
+
+
+.form_tag {
+	max-width: 100%;
+}
+
+
+h1 {
+	margin: 0;
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 700;
+	padding-top:5%;
+	font-size:72px;
+}
+
+.border {
+	border-top: 3px dotted;
+	border-bottom: 3px dotted;
+	padding: 5%;
+}
+
+div.transbox {
+	
+    background-color: #ffffff;
+ 
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+
+    color: #000000;
+    margin: 0;
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: bold;
+	padding:1%;
+	font-size:28px;
+}
+
+div.transbox h6 {
+    font-weight: thin;
+    color: #000000;
+    margin: 0;
+	font-family: 'Proxima Nova', sans-serif;
+	padding:1%;
+	font-size:22px;
+}
+
+.input-group {
+	padding-top: 2%;
+}
+
+
+nav {
+	padding-right:3%; 
+	font-family:'Proxima Nova', sans-serif;
+	font-weight:bolder;
+	position:fixed;
+	top:0;
+	font-color:white;
+
+}
+
+ul.nav-pills {
+	background: #337AB7;
+}
+
+.submission {
+	padding-left: 25%;
+}
+
+a.clickhere {
+	font-size: 8px;
+}
+
+h3 {
+	padding:2%;
+	font-size:48px;
+	font-weight:thin
+}
+
+h4 {
+	
+	border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+	padding: 3%;
+	
+}
+	
+
+img.logo {
+	height:75px;
+	border-radius:50%;
+}
+
+section.welcome {
+	padding-left: 52%;
+	font-size: 24px;
+	height: 700px;
+}
+
+.jumbotron {
+	width: 100%;
+	padding: 20%;
+	background: white;
+}
+
+section.intro {
+	padding: 8%;
+	background: #337AB7;
+	font-size: 24px;
+	height: 700px;
+	font-color: white;
+}
+
+
+section.intro p {
+	font-size:24px;
+	font-weight:thin;
+	padding:2%;
+	color: white;
+}
+
+section.intro h3{
+	color: white;
+	border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+}
+
+section.services {
+	height:700px;
+	padding:8%;
+}
+
+section.services h2{
+	padding:1%;
+	font-size:28px;
+}
+
+section.services h3{
+	border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+	border-color: #505050;
+
+}
+
+section.services img {
+	width: 100px;
+	padding: 5%;
+}
+
+section.steps {
+	padding: 8%;
+	background: #337AB7;
+	background-size: cover;
+	background-position: 50%;
+	background-attachment: fixed;
+	font-size: 24px;
+	height: 700px;
+}
+
+section.steps {
+	height:700px;
+}
+
+section.steps h3{
+	font-size:48px;
+	color: white;
+	border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+
+}
+
+section.steps h2{
+	font-size:28px;
+	color: white;
+	font-weight:bold;
+}
+
+section.steps h4{
+	font-size:18px;
+	color: white;
+	font-weight:bolder;
+}
+
+section.steps p{
+	font-size:16px;
+	color: white;
+	font-weight:thin;
+}
+
+section.steps img {
+	width: 100px;
+}
+
+
+footer {
+	color:white;
+	font-size:12px;
+	padding:1%;
+}
+
+
+
+
+
+

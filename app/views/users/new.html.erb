@@ -1,0 +1,25 @@
+<div class="sheret">
+	<div id='container'>
+	  <div class='signup'>
+	     <%= form_for @user do |f| %>
+	     	<%= f.label :name, "Full Name" %>
+			<%= f.text_field :name, placeholder:"Enter your full name here"%>
+			<%= f.label :phone_number, "Phone Number" %>
+			<%= f.text_field :phone_number, placeholder: "Enter your phone number here" %>
+			<%= f.label :email, "Email" %>
+			<%= f.text_field :email, placeholder:"Enter your email here" %>
+			<%= f.submit %>
+	     <% end %>
+	  </div>
+	  <div class='whysign'>
+	    <h1>Learn by Doing</h1>
+	    <p>Learning to code is not magic. It is as simply as opening your browser! See in real time the changes you make to HTMl, CSS, JavaScript, HAML, and more!</p>
+	    <p>Learn: 
+	      <span>HTML</span>
+	      <span>CSS</span>
+	      <span>JavaScript</span>
+	    </p>
+	  </div>
+	</div>
+
+</div>
