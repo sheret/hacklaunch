@@ -9,7 +9,7 @@ class UsersController < ApplicationController
 			if @user.save
 		      redirect_to '/'
 		    else
-		      render text: "not working"
+		      render text: "You gotta fill out all fields yo!"
 		    end
 	end
 
