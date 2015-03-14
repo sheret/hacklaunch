@@ -1,16 +1,17 @@
-<h1>Blog</h1>
-<%= form_for @post do |f| %>
-	<div>
-		<div> 
-			<%= f.label :title, "Title" %>
-			<%= f.text_field :title %>
-		</div>
-
+<div class="sheret">
+<div id='container'>
+	<div class='create_post'>
+	<%= form_for @post do |f| %>
 		<div>
-			<%= f.label :content %>
-			<%= f.text_area :content %>
-		</div>
+			<div> 
+				<%= f.label :title, "Title"%>
+				<%= f.text_field :title %>
+				<%= f.label :content %>
+				<%= f.text_field :content %>
+			</div>
 
-		<%= f.submit %>
+			<%= f.submit %>
+		</div>
+	<% end %>
 	</div>
-<% end %>
+</div>

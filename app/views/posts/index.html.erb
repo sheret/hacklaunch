@@ -1,16 +1,16 @@
 <div class="container">
-	<div class="text-center">
-	
 	<h1>My Blog</h1>
+	
+	<h4><%= link_to "Create a New Post", new_post_path %></h4>
 
+	<div class="text-center">
 	<% @posts.each do |post| %>
 		<ul style="list-style: none;">
 			<li> 
-			<%= link_to(post.title, post)%> 
+			<h2><%= link_to(post.title.capitalize, post)%></h2>
 			</li>
 		</ul>
-	<%= link_to "Create a New Post", new_post_path %>
-
 	<% end %>
 	</div>
+
 </div>	
