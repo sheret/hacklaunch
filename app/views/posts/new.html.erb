@@ -1,5 +1,5 @@
 <div class="sheret">
-<div id='container'>
+<div class='container'>
 	<div class='create_post'>
 	<%= form_for @post do |f| %>
 		<div>
@@ -8,6 +8,10 @@
 				<%= f.text_field :title %>
 				<%= f.label :content %>
 				<%= f.text_field :content %>
+				<%= f.label :author %>
+				<%= f.text_field :author %>
+				<%= f.label :category %>
+				<%= f.text_field :category %>
 			</div>
 
 			<%= f.submit %>

@@ -9,7 +9,7 @@ class PostsController < ApplicationController
 	  if @post.save
 	    redirect_to '/posts'
 	  else
-	    render 'new'
+	    render 'new' #this isn't working, registering empty posts to the database
 
 	  end
 	end
